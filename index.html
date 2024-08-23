@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/2e0d78a86c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <!-- dashborad Container -->
+    <div class="dashboardContainer">
+        <nav class="menuBarContainer">
+            <h1 class="DoolerHeading pb-3">
+                Ditch
+                <br />
+                <span class="dollerSpan pl-5">Doller</span>
+            </h1>
+            <div class="linkContainer">
+                <ul class="menuNavTopList">
+                    <li class="list1">
+                        <i class="fas fa-columns pr-3"></i>
+                        <p class="para pt-3 pl-3">Dashboard</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-meh-rolling-eyes pr-3"></i>
+                        <p class="pt-3 para">CRM</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-cube pr-3"></i>
+                        <p class="pt-3 para">MAM</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-meh-rolling-eyes pr-3"></i>
+                        <p class="pt-3 para">PAMM</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-exchange-alt pr-3"></i>
+                        <p class="pt-3 para">Trade</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-wallet pr-3"></i>
+                        <p class="pt-3 para">Wallet</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-file-invoice pr-3"></i>
+                        <p class="pt-3 para">Accounts</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-history pr-3"></i>
+                        <p class="pt-3 para">History</p>
+                    </li>
+                </ul>
+                <ul class="menuNavBottomList">
+                    <li class="items">
+                        <i class="far fa-bell pr-3"></i>
+                        <p class="pt-3 para">Notifications</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-cog pr-3"></i>
+                        <p class="pt-3 para">Settings</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-headphones-alt pr-3"></i>
+                        <p class="pt-3 para">Help & Support</p>
+                    </li>
+                    <li class="items">
+                        <i class="fas fa-sign-out pr-3"></i>
+                        <p class="pt-3 para">Log Out</p>
+                    </li>
+                </ul>
+            </div>
+            <hr class="line" />
+            <div class="bottom-container">
+                <div class="initial ">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="nameSection ml-3">
+                    <h1 class="textHead">Shyam Shankar</h1>
+                    <p class="textDesc">Shyam01shankar@gmial.com</p>
+                </div>
+            </div>
+        </nav>
+        <div class="rightSectionContainer">
+
+            <!-- NavBar Container-->
+
+            <nav class="navBarContainer">
+                <h1 class="navDashHeading">Dashboard</h1>
+                <div class="inputContainer mr-5">
+                    <div class="inputStyleContainer">
+                        <i class="fas fa-search"></i>
+                        <input type="text" class="inputStyle" placeholder="Search..." />
+                    </div>
+                    <i class="far fa-bell mr-2"></i>
+                </div>
+            </nav>
+            <div class="sideContainer">
+                <div class="leftSideContainer">
+
+                    <!-- Quick Links Container -->
+
+                    <div class="quickContainer">
+                        <h6 class="quickHeading">Quick Links</h6>
+                        <div class="QuickLinkLists">
+                            <li class="quickItems">
+                                <i class="fas fa-arrow-down"></i>
+                                <p class="pt-2">Deposit</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-arrow-up"></i>
+                                <p class="pt-2">Withdraw</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-cog "></i>
+                                <p class="pt-2">Settings</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-user-check"></i>
+                                <p class="pt-2">Verification</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-star"></i>
+                                <p class="pt-2">Bonuses</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-chart-line"></i>
+                                <p class="pt-2">MT5</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-exchange-alt"></i>
+                                <p class="pt-2">Transfer</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-history"></i>
+                                <p class="pt-2">History</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-handshake-alt"></i>
+                                <p class="pt-2">Partner</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-exchange-alt"></i>
+                                <p class="pt-2">Exchange</p>
+                            </li>
+                            <li class="quickItems">
+                                <i class="fas fa-chart-bar"></i>
+                                <p class="pt-2">Analytics</p>
+                            </li>
+                        </div>
+                    </div>
+
+                    <!-- Overview Container -->
+
+                    <div class="overviewContainer">
+                        <div class="top-overview-Container">
+                            <h6>Overview</h6>
+                            <div class="download">
+                                <button type="button" class="downloadIconButton">
+                                    <i class="far fa-arrow-to-bottom" color='black'></i>
+                                </button>
+
+                                <h6 class="pt-2">Download Report</h6>
+                            </div>
+                        </div>
+                        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+                    </div>
+                </div>
+                <div class="rightSideContainer">
+
+                    <!-- Trading Account Container -->
+
+                    <div class="tradingAccountContainer">
+                        <h6 class="tradeHeading">Trading Accounts</h6>
+                        <div class="tradingLists">
+                            <li class="tradingItem">
+                                <p class="tradeName">Master Account</p>
+                                <div class="trader">
+                                    <p class="cTrade">C Trader</p>
+                                    <p class="number">#273728</p>
+                                </div>
+                                <div class="USD">
+                                    <p>
+                                        <span class="tradeMoney">0.00</span>USD
+                                    </p>
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </div>
+                            </li>
+                            <li class="tradingItem">
+                                <p class="tradeName">Master Account</p>
+                                <div class="trader">
+                                    <p class="cTrade">C Trader</p>
+                                    <p class="number">#273728</p>
+                                </div>
+                                <div class="USD">
+                                    <p>
+                                        <span class="tradeMoney">0.00</span>USD
+                                    </p>
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+
+                   <!-- OpenTrade Container -->
+
+                    <div class="openTradeContainer">
+                        <h6 class="openTradeHeading">Open Trades</h6>
+                        <div class="openTradeLists">
+                            <li class="openTradeItem1">
+                                <div class="sectionContainer">
+                                    <div class="miniSectionContainer">
+                                        <p class="GBPUSD">GBPUSD</p>
+                                        <p class="Long">Long</p>
+                                    </div>
+                                    <p>0.12</p>
+                                </div>
+                                <p class="pr-3">
+                                    <span class="span1">+56.00</span>USD
+                                </p>
+                            </li>
+                            <li class="openTradeItem1">
+                                <div class="sectionContainer">
+                                    <div class="miniSectionContainer">
+                                        <p class="GBPUSD">USDJPY</p>
+                                        <p class="Long">Long</p>
+                                    </div>
+                                    <p>0.12</p>
+                                </div>
+                                <p class="pr-3">
+                                    <span class="span2"> -0.09</span>USD
+                                </p>
+                            </li>
+                            <li class="openTradeItem1">
+                                <div class="sectionContainer">
+                                    <div class="miniSectionContainer">
+                                        <p class="GBPUSD">EURUSD</p>
+                                        <p class="Short">Short</p>
+                                    </div>
+                                    <p>0.12</p>
+                                </div>
+                                <p class="pr-3">
+                                    <span class="span2"> -0.09</span>USD
+                                </p>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+ <!-- Graph -->
+
+    <script>
+        var xValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+        var yValues = [500, 1300, 1400, 500, 200, 3500, 500, 1500, 300, 1500, 1000, 1150];
+        var barColors = ["#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD", "#AD8EDD"];
+
+        new Chart("myChart", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                legend: {
+                    display: false
+                },
+                title: {
+                    display: true,
+                    text: "World Wine Production 2018"
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
